@@ -1,0 +1,70 @@
+# IDE files
+.idea
+.vscode
+
+*.wav
+*.mp3
+*.avi
+*.mkv
+*.mp4
+*.png
+*.ckpt
+*.pth
+*.pt
+*.pb
+*.ckp
+*.pyt
+#*.zip
+*.pkl
+*.npy
+*.out
+*.csv
+*.gif
+
+_pycache_
+
+#Mac files
+.DS_Store
+
+#Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+#Byte-compiled/optimized/DLL files_pycache_/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Pyhton
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.virtualenv
+dataset
