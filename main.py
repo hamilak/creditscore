@@ -3,6 +3,8 @@ import sklearn
 import numpy as np
 
 # loading csv file
+from sklearn.model_selection import train_test_split
+
 df = pd.read_csv('credit.csv')
 
 # dropping columns
@@ -13,7 +15,8 @@ print(new_df.info())
 # print(new_df.isnull)
 print(new_df.isna().any().sum())
 # # drop rows with missing values
-# new_df = new_df.dropna()
+new_df = new_df.dropna()
 # print(new_df.isnull)
 # print(new_df.isna().any().sum())
+
 
