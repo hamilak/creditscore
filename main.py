@@ -18,6 +18,3 @@ new_df = new_df.dropna()
 print(new_df.isnull)
 print(new_df.isna().any().sum())
 
-# ratio of male to female workers
-print(new_df['gender'].value_counts())
-
