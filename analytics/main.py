@@ -37,4 +37,6 @@ print(f'There are {defaulting_male_customers} number of customers with more than
 
 # Comparison of duration it takes Female customers between the age of 30 – 50 to repay their loan to male customers
 
-# female_customers = len(df.query('gender == "female" & 30 > age < 50'))
+female_customers = df.query('gender == "female" & 30 > age < 50')['months_loan_duration'].sum()
+male_customers = df.query('gender == "male" & 30 > age < 50')['months_loan_duration'].sum()
+print(female_customers)
